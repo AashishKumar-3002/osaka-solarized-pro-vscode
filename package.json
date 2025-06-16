@@ -1,0 +1,72 @@
+{
+  "name": "osaka-solarized-pro",
+  "displayName": "Osaka Solarized Pro",
+  "description": "A professional Solarized-inspired theme collection for VS Code with dark, light, and Monokai Storm variants, originally created by craftzdog for Neovim",
+  "version": "1.0.0",
+  "publisher": "AashishKumar-3002",    
+  "author": {
+    "name": "AashishKumar-3002",
+    "email": "aashish2023kumar@outlook.com"
+  },
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],  
+  "keywords": [
+    "theme",
+    "dark theme",
+    "light theme",
+    "monokai",
+    "storm",
+    "solarized",
+    "osaka",
+    "craftzdog",
+    "takuya",
+    "matsuyama",
+    "minimalist",
+    "modern",
+    "professional",
+    "eye-friendly",
+    "productivity",
+    "syntax highlighting",
+    "color scheme"
+  ],  
+  "contributes": {
+    "themes": [
+      {
+        "label": "Osaka Solarized Pro Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/osaka-solarized-pro-dark.json"
+      },
+      {
+        "label": "Osaka Solarized Pro Light",
+        "uiTheme": "vs",
+        "path": "./themes/osaka-solarized-pro-light.json"
+      },
+      {
+        "label": "Osaka Solarized Pro Monokai Storm",
+        "uiTheme": "vs-dark",
+        "path": "./themes/osaka-solarized-pro-monokai-storm.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AashishKumar-3002/osaka-solarized-pro-vscode"
+  },
+  "homepage": "https://github.com/AashishKumar-3002/osaka-solarized-pro-vscode",
+  "bugs": {
+    "url": "https://github.com/AashishKumar-3002/osaka-solarized-pro-vscode/issues"
+  },
+  "license": "MIT",  
+  "galleryBanner": {
+    "color": "#1e1e2e",
+    "theme": "dark"
+  },
+  "icon": "icon.png",
+  "sponsor": {
+    "url": "https://github.com/sponsors/AashishKumar-3002"
+  }
+}

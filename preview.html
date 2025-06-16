@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solarized Osaka Theme Preview</title>
+    <style>
+        body {
+            font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+            line-height: 1.5;
+            margin: 40px;
+        }
+        .dark-theme {
+            background-color: #002731;
+            color: #a5b4b9;
+        }
+        .light-theme {
+            background-color: #fdf6e3;
+            color: #657b83;
+        }
+        .preview-box {
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border: 1px solid #445056;
+        }
+        .color-palette {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        .color-swatch {
+            width: 100px;
+            height: 60px;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            font-weight: bold;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        }
+    </style>
+</head>
+<body>
+    <h1>Solarized Osaka Theme Preview</h1>
+    
+    <h2>Dark Theme</h2>
+    <div class="preview-box dark-theme">
+        <h3>Code Sample</h3>
+        <pre><code style="color: #859900;">function</code> <code style="color: #268bd2;">greet</code>(<code style="color: #cb4b16;">name</code>) {
+    <code style="color: #859900;">const</code> <code style="color: #268bd2;">message</code> = <code style="color: #2aa198;">`Hello, ${name}!`</code>;
+    <code style="color: #268bd2;">console</code>.<code style="color: #268bd2;">log</code>(<code style="color: #268bd2;">message</code>);
+    <code style="color: #859900;">return</code> <code style="color: #268bd2;">message</code>;
+}</pre>
+    </div>
+
+    <h2>Light Theme</h2>
+    <div class="preview-box light-theme">
+        <h3>Code Sample</h3>
+        <pre><code style="color: #859900;">function</code> <code style="color: #268bd2;">greet</code>(<code style="color: #cb4b16;">name</code>) {
+    <code style="color: #859900;">const</code> <code style="color: #268bd2;">message</code> = <code style="color: #2aa198;">`Hello, ${name}!`</code>;
+    <code style="color: #268bd2;">console</code>.<code style="color: #268bd2;">log</code>(<code style="color: #268bd2;">message</code>);
+    <code style="color: #859900;">return</code> <code style="color: #268bd2;">message</code>;
+}</pre>
+    </div>
+
+    <h2>Color Palette</h2>
+    <div class="color-palette">
+        <div class="color-swatch" style="background-color: #2aa198;">#2aa198<br>Cyan</div>
+        <div class="color-swatch" style="background-color: #268bd2;">#268bd2<br>Blue</div>
+        <div class="color-swatch" style="background-color: #859900;">#859900<br>Green</div>
+        <div class="color-swatch" style="background-color: #b58900;">#b58900<br>Yellow</div>
+        <div class="color-swatch" style="background-color: #cb4b16;">#cb4b16<br>Orange</div>
+        <div class="color-swatch" style="background-color: #dc322f;">#dc322f<br>Red</div>
+        <div class="color-swatch" style="background-color: #d33682;">#d33682<br>Magenta</div>
+        <div class="color-swatch" style="background-color: #6c71c4;">#6c71c4<br>Violet</div>
+    </div>
+</body>
+</html>
