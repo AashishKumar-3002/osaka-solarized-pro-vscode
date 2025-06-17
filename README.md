@@ -23,9 +23,9 @@ A **beautiful collection** of Solarized-inspired themes for Visual Studio Code, 
 4. Click **Install**
 5. Press `Ctrl+K Ctrl+T` to open theme selector
 6. Choose your preferred theme:
-   - **Osaka Solarized Dark**
-   - **Osaka Solarized Light** 
-   - **Osaka Solarized Monokai Storm**
+   - **Osaka Solarized Pro Dark**
+   - **Osaka Solarized Pro Light** 
+   - **Osaka Solarized Pro Monokai Storm**
 
 ### Manual Installation
 1. Download the latest `.vsix` from [GitHub Releases](https://github.com/AashishKumar-3002/osaka-solarized-pro-vscode/releases)
@@ -36,10 +36,10 @@ A **beautiful collection** of Solarized-inspired themes for Visual Studio Code, 
 
 ## 🎯 Theme Showcase
 
-### 🌙 Solarized Osaka Dark
+### 🌙 Osaka Solarized Pro Dark
 *Perfect for late-night coding sessions*
 
-![Osaka Solarized Dark Theme](https://raw.githubusercontent.com/AashishKumar-3002/osaka-solarized-pro-vscode/main/screenshots/osaka-solarized-pro-dark.png)
+![Osaka Solarized Pro Dark Theme](https://raw.githubusercontent.com/AashishKumar-3002/osaka-solarized-pro-vscode/main/screenshots/osaka-solarized-pro-dark.png)
 
 **Key Features:**
 - Deep blue-gray backgrounds (`#002731`, `#003f4a`)
@@ -49,10 +49,10 @@ A **beautiful collection** of Solarized-inspired themes for Visual Studio Code, 
 
 ---
 
-### ☀️ Solarized Osaka Light  
+### ☀️ Osaka Solarized Pro Light  
 *Bright and clean for daytime productivity*
 
-![Osaka Solarized Light Theme](https://raw.githubusercontent.com/AashishKumar-3002/osaka-solarized-pro-vscode/main/screenshots/osaka-solarized-pro-light.png)
+![Osaka Solarized Pro Light Theme](https://raw.githubusercontent.com/AashishKumar-3002/osaka-solarized-pro-vscode/main/screenshots/osaka-solarized-pro-light.png)
 
 **Key Features:**
 - Warm cream backgrounds (`#fdf6e3`)
@@ -62,10 +62,10 @@ A **beautiful collection** of Solarized-inspired themes for Visual Studio Code, 
 
 ---
 
-### ⚡ Solarized Osaka Monokai Storm
+### ⚡ Osaka Solarized Pro Monokai Storm
 *Modern, minimalist, and vibrant*
 
-![Osaka Solarized Monokai Storm Theme](https://raw.githubusercontent.com/AashishKumar-3002/osaka-solarized-pro-vscode/main/screenshots/osaka-solarized-pro-monokai-storm.png)
+![Osaka Solarized Pro Monokai Storm Theme](https://raw.githubusercontent.com/AashishKumar-3002/osaka-solarized-pro-vscode/main/screenshots/osaka-solarized-pro-monokai-storm.png)
 
 **Key Features:**
 - Ultra-dark backgrounds (`#181825`, `#1e1e2e`)
@@ -121,13 +121,13 @@ Want to customize the theme? You can override specific colors in your `settings.
 ```json
 {
   "workbench.colorCustomizations": {
-    "[Solarized Osaka Monokai Storm]": {
+    "[Osaka Solarized Pro Monokai Storm]": {
       "editor.background": "#1a1a2e",
       "sideBar.background": "#16213e"
     }
   },
   "editor.tokenColorCustomizations": {
-    "[Solarized Osaka Monokai Storm]": {
+    "[Osaka Solarized Pro Monokai Storm]": {
       "comments": "#6272a4"
     }
   }
