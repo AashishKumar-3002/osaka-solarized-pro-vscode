@@ -23,10 +23,6 @@ jobs:
         echo "version=$VERSION" >> $GITHUB_OUTPUT
         echo "Publishing version: $VERSION"
 
-    - name: Update package.json version
-      run: |
-        npm version ${{ steps.get_version.outputs.version }} --no-git-tag-version
-
     - name: Install vsce
       run: npm install -g vsce
 
